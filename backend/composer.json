@@ -1,0 +1,16 @@
+{
+    "name": "srivy/backend",
+    "description": "Backend pipeline for BeyondChats article processing",
+    "autoload": {
+        "psr-4": {
+            "Srivy\\Backend\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Vyshnavi",
+            "email": "vyshnavik429@gmail.com"
+        }
+    ],
+    "require": {}
+}
