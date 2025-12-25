@@ -11,6 +11,16 @@ The goal of this assignment is to design and build a simplified system that:
 Given the limited time window, I focused on getting a working end-to-end prototype in place, while being transparent about assumptions, trade-offs, and what I would build differently in a production setup.
 
 
+
+## Assignment Context & Scope
+
+This submission is intentionally scoped to demonstrate system design thinking, API clarity, and frontend consumption rather than production-grade scraping or AI pipelines.
+
+Where features are mocked or simulated, I have explicitly documented how they would be implemented in a real-world setup.
+
+
+
+
 ## High-Level Architecture
 
 The system is divided into three logical layers:
@@ -143,7 +153,16 @@ This exercise reinforced my interest in working at the intersection of product, 
 
 
 
+## Live Demo
+
+- Frontend: https://beyondchats-frontend-lyui.onrender.com/
+- Backend API: https://beyondchats-backend-brw3.onrender.com/
+
+
+
 ## Future Improvements
+
+If given additional time, my next priority would be automating article ingestion and introducing article versioning, as these unlock scalability and trust before investing further in AI quality.
 
 - Real article scraping with scheduling and retries
 - Full Laravel backend with database persistence
