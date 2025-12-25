@@ -6,7 +6,7 @@ function ArticlesPage() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("http://localhost:8000")
+    fetch("https://beyondchats-backend-brw3.onrender.com")
       .then(res => res.json())
       .then(data => {
         setArticles(data.articles);
